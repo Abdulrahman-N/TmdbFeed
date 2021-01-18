@@ -1,6 +1,4 @@
 # TmdbFeed
-
-# TmdbFeed
 A sample project which displays a list of movies using the the [TMDb](https://www.themoviedb.org/) API
 
 <h2>Project Architecture</h2>
