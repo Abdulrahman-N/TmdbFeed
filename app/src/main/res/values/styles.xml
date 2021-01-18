@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MoviePoster">
+        <item name="android:layout_height">125dp</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="shapeAppearanceOverlay">@style/RoundedShape</item>
+    </style>
+
+    <style name="RoundedShape" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">6%</item>
+    </style>
+
+    <style name="toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextAppearance">@style/toolbarText</item>
+        <item name="titleTextColor">@color/colorAccent</item>
+    </style>
+
+    <style name="toolbarText" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">22sp</item>
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+</resources>

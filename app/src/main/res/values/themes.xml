@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.InterviewTask" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/textColor</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/textColor</item>
+        <item name="fontFamily">@font/manrope_medium</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
